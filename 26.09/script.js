@@ -23,3 +23,19 @@ hobbies("john");
 hobbies("john", "swimming", "reading", "singing");
 //1. rest operator must be the last parameter in the function
 //2. there must be only one rest parameter in the function
+
+// fat arrow function
+// const greet()
+//  fat arrow function syntax
+//  const funcname = () => {
+//  return "hello";
+//  };
+
+ // non parameterize fat arrow function
+//  const greet = () => "hello";
+//  let res = greet();
+
+ // parameterized fat arrow function
+ const sum = (a, b) => a + b;
+ const res = sum(2, 3);
+ console.log(res);
