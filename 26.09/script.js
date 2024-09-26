@@ -35,6 +35,7 @@ hobbies("john", "swimming", "reading", "singing");
 //  const greet = () => "hello";
 //  let res = greet();
 
+
  // parameterized fat arrow function
  const sum = (a, b) => a + b;
  const res = sum(2, 3);
