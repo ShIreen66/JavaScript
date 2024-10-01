@@ -39,7 +39,7 @@
 
 // data types
 // 1.number -> NaN, Infinity, -infinity
-// string -> single inverted comma ya double inverted ya terminal string hai
+// string -> single inverted comma ya double inverted ya terminal/template string hai
 // jab bhi string ke sath kuchhh joda jayega to uska datatypes string ban jayega
 // ex of string -> var address
 // ex number
@@ -105,8 +105,8 @@
 
 // input
 
-// var n = prompt("Enter Number");
-// var m = prompt("Enter Number");
+// var n = +prompt("Enter Number");
+// var m = +prompt("Enter Number");
 // console.log(n + m);
 // console.log(typeof n); 
 
@@ -349,10 +349,10 @@
 // b. check if user eligible for vote or not and give the suitable message on console.
 // c. also if user not eligible for vote print the exact year left to made him eligible for vote.
 
-const username = prompt("enter name");
-const age = +prompt("enter age");
+// const username = prompt("enter name");
+// const age = +prompt("enter age");
 
-console.log(username, age);
+// console.log(username, age);
 
 
 
@@ -366,11 +366,11 @@ console.log(username, age);
 // ? "eligible for vote"
 // :'sorry! '
 
-if (age >=18) {
-        console.log("elligible")
-} else {
-        console.log("Not Eligible");
-}
+// if (age >=18) {
+//         console.log("elligible")
+// } else {
+//         console.log("Not Eligible");
+// }
 
 
 // write a programme to take 3 numeric inputs from the user
