@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(174, 215, 174);
+    height: 10%;
+    width: 100vh;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+    padding: 20px;
+    transition: 0.25s ease-out;
+}
+
+.close {
+    display: none;
+}
