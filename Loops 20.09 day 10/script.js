@@ -17,14 +17,14 @@
 
 
 // ex of while loop
-// let i = 1
+let i = 1
 
-// while(i <= 10){
-//     console.log(i);
-//     i++
-// }
+while(i => 10){
+    console.log(i);
+    i++
+}
 
-// console.log("End of loop");
+console.log("End of loop");
 
 
 // ex of do while loop
@@ -35,30 +35,30 @@
 //     i++;
 // } while (i <= 10);
 
-// console.log("End of loop");
+// // console.log("End of loop");
 
-// for while
-// for (let i = 1; i <=10; i++) {
-//     console.log(i);
-// }
+// // for while
+// // for (let i = 1; i <=10; i++) {
+// //     console.log(i);
+// // }
 
-// break and continue 
+// // break and continue 
 
-// ex of continue
+// // ex of continue
+// // for (let i = 1; i <= 10; i++) {
+// //     if (i % 2 !=0) {
+// //         // odd
+// //         continue; // go to updation expression and skip the below code
+// //     }
+// //     console.log(i);
+// // }
+
+
+// // ex of break
 // for (let i = 1; i <= 10; i++) {
-//     if (i % 2 !=0) {
-//         // odd
-//         continue; // go to updation expression and skip the below code
+//     if (i === 6) {
+//         console.log("loop breaked");
+//         break;
 //     }
 //     console.log(i);
 // }
-
-
-// ex of break
-for (let i = 1; i <= 10; i++) {
-    if (i === 6) {
-        console.log("loop breaked");
-        break;
-    }
-    console.log(i);
-}
