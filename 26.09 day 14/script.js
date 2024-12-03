@@ -39,4 +39,4 @@ hobbies("john", "swimming", "reading", "singing");
  // parameterized fat arrow function
  const sum = (a, b) => a + b;
  const res = sum(2, 3);
- console.log(res);
+ console.log(res); 
